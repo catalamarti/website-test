@@ -1,0 +1,37 @@
+---
+title: "Marti"
+subtitle: "Senior Data Scientist"
+image: mypic.jpeg
+about: # https://quarto.org/docs/websites/website-about.html
+  template: trestles
+  image-shape: round
+  links:
+    - icon: github
+      text: Github
+      href: https://github.com/catalamarti
+    - icon: linkedin
+      text: LinkedIn
+      href: https://linkedin.com/
+---
+
+I am a senior data scientist using routinely collected health data to generate reliable evidence for improved patient care. I co-lead the Oxinfer group in the Health Data Sciences (HDS) section of the University of Oxford.
+
+My research focuses on generating evidence on the safety, effectiveness, and cost-effectiveness of medicines and procedures. To do so, I develop R packages and code to curate and analyse the data from millions of routinely recorded health care interactions. We use a common data model developed by the OHDSI community to transform disparate sources of healthcare data, into a standard format. Our data partners across Europe and the world all transform their data into this format. We can then perform data analyses across all these datasets, sharing only analytic code and aggregated results between sites. This approach allows us to safely combine data and generate more generalisable answers to research questions than if we were restricted to single datasets.
+
+I also contribute to the DARWIN EU project as a programmer and study leader. This European Medicines Agency project will deliver real-world evidence from across Europe on diseases, populations, and the use and performance of medicines.
+
+Before joining HDS, I completed my PhD thesis in Computational and Applied Physics at Universitat Politècnica de Catalunya in Barcelona. There I built computational models to understand the natural history of tuberculosis. I also built computational models to predict the evolution of the COVID-19 pandemic, which were used by the Catalan authorities and European Commission (DG-Connect).
+
+## Education
+
+**Physics Engineering**, Universitat Politecnica de Catalunya, Barcelona \| Spain \| Sept 2011 - June 2015
+
+**PhD in Computational and Applied Physics**, Universitat Politecnica de Catalunya, Barcelona \| Spain \| Sept 2017 - Oct 2021
+
+## Experience
+
+[CMCiB](https://www.cmcib.cat) \| **Research assistant** \| June 2019 - January 2021
+
+University of Oxford \| **Postdoctoral data scientist** \| February 2022 - December 2022
+
+University of Oxford \| **Senior data scientist** \| January 2023 - present

@@ -1,0 +1,26 @@
+project:
+  type: website
+
+website:
+  title: "My profile"
+  open-graph: true # https://quarto.org/docs/websites/website-tools.html#open-graph
+  page-footer: "Made with ❤️ and Quarto"
+  navbar:
+    right:
+      - text: Home
+        href: index.qmd
+      - text: University
+        href: https://www.ndorms.ox.ac.uk
+        
+format:
+  html:
+    fontcolor: black
+    linkcolor: green
+    backgroundcolor: '#fffdd0'
+    mainfont: ui-rounded
+    monofont: cursive
+    #fontsize: 10pt
+    #max-width: 10px
+    #linestretch: 1.5em
+    theme: [cosmo, styles.scss]
+
