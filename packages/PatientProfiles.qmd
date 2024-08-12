@@ -1,0 +1,5 @@
+---
+title: PatientProfiles
+---
+
+Identify the characteristics of patients in data mapped to the Observational Medical Outcomes Partnership (OMOP) common data model.

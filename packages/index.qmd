@@ -1,0 +1,31 @@
+---
+title: Packages
+---
+
+List of packages build by us:
+
+- Core packages
+  - [omopgenerics](https://darwin-eu-dev.github.io/omopgenerics/)
+  - [PatientProfiles](/packages/PatientProfiles.qmd)
+  - CodelistGenerator
+
+- Diagnostics packages
+  - PhenotypeR
+  - DrugExposureDiagnostics
+
+- Analytics packages
+  - CohortCharacteristics
+  - CohortSurvival
+  - DrugUtilisation
+
+- Reporting
+  - omopViewer
+  - visOmopResults
+  
+tags: h1{}
+
+class: .important{}
+
+id: #title{}
+
+space separator

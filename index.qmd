@@ -1,5 +1,5 @@
 ---
-title: "Marti"
+title: "Martí Català"
 subtitle: "Senior Data Scientist"
 image: mypic.jpeg
 about: # https://quarto.org/docs/websites/website-about.html
@@ -13,6 +13,8 @@ about: # https://quarto.org/docs/websites/website-about.html
       text: LinkedIn
       href: https://linkedin.com/
 ---
+
+## Background
 
 I am a senior data scientist using routinely collected health data to generate reliable evidence for improved patient care. I co-lead the Oxinfer group in the Health Data Sciences (HDS) section of the University of Oxford.
 

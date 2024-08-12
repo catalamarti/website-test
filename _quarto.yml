@@ -2,25 +2,55 @@ project:
   type: website
 
 website:
-  title: "My profile"
+  site-url: https://marticatala.quarto.pub/myprofile/
+  title: "omopverse"
   open-graph: true # https://quarto.org/docs/websites/website-tools.html#open-graph
-  page-footer: "Made with ❤️ and Quarto"
+  repo-url: https://github.com/catalamarti/website-test
+  repo-actions: [issue]
+  page-footer: 
+    left: "Copyright 2024, Oxinfer"
+    right: 
+      - text: Github
+        href: https://github.com/oxford-pharmacoepi
+        icon: github
+      - text: Twitter
+        href: https://x.com/CatalaMarti
+        icon: twitter
+      - text: Youtube Channel
+        href: https://www.youtube.com/@oxinfer
+        icon: youtube
+      
   navbar:
-    right:
+    title: "omopverse"
+    search: false
+    left: 
       - text: Home
         href: index.qmd
-      - text: University
-        href: https://www.ndorms.ox.ac.uk
-        
+        icon: house
+      - text: Packages
+        icon: boxes
+        href: packages/index.qmd
+    tools: 
+      - text: Github
+        href: https://github.com/oxford-pharmacoepi
+        icon: github
+      - text: Youtube Channel
+        href: https://www.youtube.com/@oxinfer
+        icon: youtube
+      - text: Twitter
+        icon: twitter
+        href: https://x.com/CatalaMarti
+      
 format:
   html:
+    toc: true
     fontcolor: black
     linkcolor: green
-    backgroundcolor: '#fffdd0'
+    backgroundcolor: white #'#fffdd0'
     mainfont: ui-rounded
     monofont: cursive
     #fontsize: 10pt
     #max-width: 10px
     #linestretch: 1.5em
     theme: [cosmo, styles.scss]
-
+  

@@ -11,3 +11,30 @@ $link-color: rgb(39, 128, 227);
 /* Fonts */
 $font-family-sans-serif: "Source Sans Pro", -apple-system, "system-ui", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 $font-size-root: 17px;
+
+h1, h2 {
+  background-color: blue;
+  margin-right: 10px;
+  margin-left: 100px;
+  margin-top: 30px;
+  margin-bottom: 200px;
+}
+
+p {
+  color: $link-color;
+}
+
+h1.title {
+  color: black;
+  border-style: solid;
+  border-width: 5px;
+  border-color: aqua;
+}
+
+p.subtitle {
+  color: green;
+}
+
+a.navbar:hover {
+  background-color: green;
+}
